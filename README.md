@@ -2,8 +2,10 @@
 
 This project use Vue, and Pusher.
 After clone this project, do :
+
 -Composer Install
 -Npm Install
+
 to get all dependencies needed.
 
 copy the .env.example into .env, then configure the DB connection (this project use MySQL),
