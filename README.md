@@ -1,3 +1,20 @@
+##  Launch
+
+This project use Vue, and Pusher.
+After clone this project, do :
+-Composer Install
+-Npm Install
+to get all dependencies needed.
+
+copy the .env.example into .env, then configure the DB connection (this project use MySQL),
+then configure the Broadcat driver with pusher.
+
+dont forget to make your Pusher account then use your own PUSHER_APP_ID, PUSHER_APP_KEY and PUSHER_APP_SECRET in the .env file.
+
+Run npm run dev to build the project in development mode, then do artisan serve to launch it.
+
+Make sure you configure the pusher configuration correctly, otherwise the realtime mode in this project will not run properly.
+
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
 <p align="center">
@@ -77,18 +94,4 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
-##Launch
-This project use Vue, and Pusher.
-After clone this project, do :
--Composer Install
--Npm Install
-to get all dependencies needed.
 
-copy the .env.example into .env, then configure the DB connection (this project use MySQL),
-then configure the Broadcat driver with pusher.
-
-dont forget to make your Pusher account then use your own PUSHER_APP_ID, PUSHER_APP_KEY and PUSHER_APP_SECRET in the .env file.
-
-Run npm run dev to build the project in development mode, then do artisan serve to launch it.
-
-Make sure you configure the pusher configuration correctly, otherwise the realtime mode in this project will not run properly.
