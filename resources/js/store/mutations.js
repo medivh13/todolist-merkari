@@ -1,4 +1,4 @@
-et mutations = {
+let mutations = {
     ADD_TODO(state, todo) {
         state.todos.unshift(todo);
     },

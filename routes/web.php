@@ -14,7 +14,3 @@
 Route::get('/', function () {
     return view('welcome');
 });
-
-Route::get('todos','TaskController@fetchAll');
-Route::post('todos','TaskController@store');
-Route::delete('todos/{id}','TaskController@delete');
